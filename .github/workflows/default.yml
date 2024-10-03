@@ -57,6 +57,6 @@ jobs:
           prerelease: false
           draft: false
           files: |
-            lsof
+            *lsof*
           repo_token: ${{ secrets.GITHUB_TOKEN }}
 
