@@ -19,4 +19,4 @@ RUN make -j$(nproc)
 RUN strip -s -R .comment -R .gnu.version --strip-unneeded ./lsof
 
 # Compress
-RUN upx --ultra-brute --no-lzma ./lsof
+# RUN upx --ultra-brute --no-lzma ./lsof
